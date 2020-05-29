@@ -17,6 +17,7 @@ button:focus {
 
 .carousel-indicators li {
     border-radius: 50%;
+    background-color: #52565e;
 }
 
 .text-primary {
