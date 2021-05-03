@@ -33,3 +33,12 @@ $(document).ready(function () {
         }, duration)
     })
 })
+
+// 讓goBackBtn在向下滑動超過600px時顯示
+$(window).scroll(function() {
+    if ($(this).scrollTop() > 600) {
+        $('#goBackBtn:hidden').stop(true, true).fadeIn();
+    } else {
+        $('#goBackBtn').stop(true, true).fadeOut();
+    }
+});
