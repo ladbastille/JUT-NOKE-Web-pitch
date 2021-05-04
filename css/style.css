@@ -214,4 +214,5 @@ footer ul {
     right: 20px;
     z-index: 1000;
     border-radius: 50%;
+    display: none;
 }
